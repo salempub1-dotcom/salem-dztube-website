@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+# Add a sitemap URL once a final custom domain is confirmed.
