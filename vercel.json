@@ -1,21 +1,29 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "cleanUrls": false,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm ci --ignore-scripts",
   "trailingSlash": true,
+  "functions": { "api/render.js": { "maxDuration": 60 } },
+  "rewrites": [
+    { "source": "/articles", "destination": "/api/render?route=articles" },
+    { "source": "/articles/", "destination": "/api/render?route=articles" },
+    { "source": "/articles/:slug", "destination": "/api/render?route=articles/:slug" },
+    { "source": "/articles/:slug/", "destination": "/api/render?route=articles/:slug" },
+    { "source": "/sitemap.xml", "destination": "/api/render?route=sitemap.xml" }
+  ],
   "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
-        }
-      ]
-    }
+    { "source": "/(.*)", "headers": [
+      { "key": "X-Content-Type-Options", "value": "nosniff" },
+      { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+      { "key": "X-Frame-Options", "value": "DENY" },
+      { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+      { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' https: blob: data:; connect-src 'self' https://dzlkwzzcmbydbsdisulx.supabase.co; frame-src https://www.youtube-nocookie.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests" }
+    ] },
+    { "source": "/admin/:path*", "headers": [
+      { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
+      { "key": "Cache-Control", "value": "no-store" }
+    ] }
   ]
 }
