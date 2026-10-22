@@ -13,3 +13,5 @@
 @font-face{font-family:Cairo;src:url('/assets/cairo-700.woff2') format('woff2');font-style:normal;font-weight:700;font-display:swap}
 @font-face{font-family:Cairo;src:url('/assets/cairo-800.woff2') format('woff2');font-style:normal;font-weight:800;font-display:swap}
 @font-face{font-family:Cairo;src:url('/assets/cairo-900.woff2') format('woff2');font-style:normal;font-weight:900;font-display:swap}
+.article-illustration{margin:28px auto;max-width:560px}.article-illustration img{width:100%;height:auto;border:1px solid var(--border);border-radius:15px}.article-illustration figcaption{margin-top:12px;color:#63636c;font-size:14px;line-height:1.9;text-align:center}
+.breadcrumbs{color:#63636c}.breadcrumbs a{text-decoration:underline;text-underline-offset:3px}
