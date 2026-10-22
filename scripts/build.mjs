@@ -3,7 +3,7 @@ import {build} from 'esbuild';
 import {legalPages,legalHTML} from './legal.mjs';
 import {notFound} from '../lib/layout.js';
 await rm('dist',{recursive:true,force:true});await mkdir('dist',{recursive:true});
-for(const file of ['index.html','styles.css','site.js','main.js','assets','content','config','lib/content.js','lib/config.js','admin/index.html','admin/admin.css']){await mkdir('dist/'+file.split('/').slice(0,-1).join('/'),{recursive:true});await cp(file,'dist/'+file,{recursive:true});}
+for(const file of ['index.html','styles.css','site.js','main.js','assets','content','config','lib/content.js','lib/article-visuals.js','lib/config.js','admin/index.html','admin/admin.css']){await mkdir('dist/'+file.split('/').slice(0,-1).join('/'),{recursive:true});await cp(file,'dist/'+file,{recursive:true});}
 await build({entryPoints:['admin/admin.js'],bundle:true,minify:true,format:'esm',target:['es2022'],outfile:'dist/admin/admin.js'});
 for(const slug of Object.keys(legalPages)){await mkdir(`dist/${slug}`,{recursive:true});await writeFile(`dist/${slug}/index.html`,legalHTML(slug));}
 await writeFile('dist/404.html',notFound());
