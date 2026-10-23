@@ -1,7 +1,53 @@
 [
-  {"id":"projects-2027","title":"5 مشاريع مربحة في الجزائر سنة 2027: أفكار وفرص تستحق الدراسة","category":"التجارة الإلكترونية","tag":"مشاريع 2027","duration":"","views":"","youtubeId":"DPVB2GNKNzQ","featured":true},
-  {"id":"stripe-llc","title":"تخدم وتربح… وفي الأخير ما تقدرش تسحب أموالك! الحل مع LLC الأمريكية وStripe","category":"الدفع الإلكتروني","tag":"LLC + Stripe","duration":"6:11","views":"6.3 ألف مشاهدة","youtubeId":""},
-  {"id":"jiibha","title":"منصة جزائرية تربط التاجر بالمورد: تعرّف على Jiibha.com","category":"التجارة الإلكترونية","tag":"Jiibha","duration":"17:29","views":"1.9 ألف مشاهدة","youtubeId":""},
-  {"id":"make","title":"تعلّم Make خطوة بخطوة: ورشة الأتمتة العملية مع ClickDZ","category":"الأتمتة والذكاء الاصطناعي","tag":"Make","duration":"15:15","views":"","youtubeId":""},
-  {"id":"cod","title":"مراحل الـ COD في الجزائر من البداية إلى التسليم بالذكاء الاصطناعي","category":"التجارة الإلكترونية","tag":"COD","duration":"","views":"","youtubeId":""}
+  {
+    "id": "projects-2027",
+    "title": "5 مشاريع مربحة في الجزائر سنة 2027: أفكار وفرص تستحق الدراسة",
+    "category": "التجارة الإلكترونية",
+    "tag": "مشاريع 2027",
+    "duration": "",
+    "views": "",
+    "youtubeId": "DPVB2GNKNzQ",
+    "featured": true,
+    "thumbnail": "/assets/videos/projects-2027.webp"
+  },
+  {
+    "id": "stripe-llc",
+    "title": "تخدم وتربح… وفي الأخير ما تقدرش تسحب أموالك! الحل مع LLC الأمريكية وStripe",
+    "category": "الدفع الإلكتروني",
+    "tag": "LLC + Stripe",
+    "duration": "6:11",
+    "views": "6.3 ألف مشاهدة",
+    "youtubeId": "PzzLGmtVb-Y",
+    "thumbnail": "/assets/videos/stripe-llc.webp"
+  },
+  {
+    "id": "jiibha",
+    "title": "منصة جزائرية تربط التاجر بالمورد: تعرّف على Jiibha.com",
+    "category": "التجارة الإلكترونية",
+    "tag": "Jiibha",
+    "duration": "17:29",
+    "views": "1.9 ألف مشاهدة",
+    "youtubeId": "1YQ1E4vFPFQ",
+    "thumbnail": "/assets/videos/jiibha.webp"
+  },
+  {
+    "id": "make",
+    "title": "تعلّم Make خطوة بخطوة: ورشة الأتمتة العملية مع ClickDZ",
+    "category": "الأتمتة والذكاء الاصطناعي",
+    "tag": "Make",
+    "duration": "15:15",
+    "views": "",
+    "youtubeId": "0HfcR4T7qDg",
+    "thumbnail": "/assets/videos/make.webp"
+  },
+  {
+    "id": "cod",
+    "title": "مراحل الـ COD في الجزائر من البداية إلى التسليم بالذكاء الاصطناعي",
+    "category": "التجارة الإلكترونية",
+    "tag": "COD",
+    "duration": "",
+    "views": "",
+    "youtubeId": "CvmcWgTNxTc",
+    "thumbnail": "/assets/videos/cod.webp"
+  }
 ]
