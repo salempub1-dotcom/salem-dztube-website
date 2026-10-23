@@ -15,3 +15,8 @@
 @font-face{font-family:Cairo;src:url('/assets/cairo-900.woff2') format('woff2');font-style:normal;font-weight:900;font-display:swap}
 .article-illustration{margin:28px auto;max-width:560px}.article-illustration img{width:100%;height:auto;border:1px solid var(--border);border-radius:15px}.article-illustration figcaption{margin-top:12px;color:#63636c;font-size:14px;line-height:1.9;text-align:center}
 .breadcrumbs{color:#63636c}.breadcrumbs a{text-decoration:underline;text-underline-offset:3px}
+
+/* Refreshed portrait framing: keep the original hero composition and brand palette. */
+.hero-visual{isolation:isolate;padding:0}.visual-frame{background:#f4f3f2;border:1px solid #eeeceb;box-shadow:0 18px 48px #19191d0d}.visual-frame>picture img{object-position:center 30%}.visual-accent{inset:-14px;background:radial-gradient(ellipse at 22% 80%,#d7192c1c,transparent 65%);border-radius:40px;transform:none;filter:blur(14px);pointer-events:none;z-index:0}
+.video-card h3 a:hover{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+.thumb-label{background:#19191dcc;border-radius:6px;padding:2px 7px}
