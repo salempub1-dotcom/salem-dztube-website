@@ -5,7 +5,7 @@ import {videoThumbnail,videoCard,bindVideoThumbnailFallbacks} from '../lib/video
 test('all five homepage videos have verified IDs and local WebP thumbnails',async()=>{
  const videos=JSON.parse(await readFile('content/videos.json','utf8'));
  assert.equal(videos.length,5);assert.equal(new Set(videos.map(v=>v.youtubeId)).size,5);
- for(const v of videos){assert.match(v.youtubeId,/^[\w-]{11}$/);assert.match(v.thumbnail,/^\/assets\/videos\/[a-z0-9-]+\.webp$/);const bytes=await readFile('dist'+v.thumbnail);assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.ok(bytes.length<150_000);assert.match(videoCard(v),new RegExp('watch\\?v='+v.youtubeId));}
+ for(const v of videos){assert.match(v.youtubeId,/^[\w-]{11}$/);assert.match(v.thumbnail,/^\/assets\/videos\/[a-z0-9-]+\.webp$/);const bytes=await readFile('dist'+v.thumbnail);assert.equal(bytes.toString('ascii',0,4),'RIFF');assert.equal(bytes.toString('ascii',8,12),'WEBP');assert.ok(bytes.length<150_000);assert.match(videoCard(v),new RegExp('watch\\?v='+v.youtubeId));assert.equal((videoCard(v).match(/href="https:\/\/www.youtube.com\/watch\?v=/g)||[]).length,2);}
  await stat('dist/lib/videos.js');
 });
 test('video thumbnail accepts only local allowlisted paths or a validated YouTube ID',()=>{
