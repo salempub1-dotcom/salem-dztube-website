@@ -1,0 +1,58 @@
+[
+  {
+    "path": "/articles/",
+    "status": 200,
+    "noindex": false,
+    "articleSchema": false,
+    "adminProtectedUI": true
+  },
+  {
+    "path": "/articles/supplier-sample-checklist-algeria/",
+    "status": 200,
+    "noindex": false,
+    "articleSchema": true,
+    "adminProtectedUI": true
+  },
+  {
+    "path": "/admin/",
+    "status": 200,
+    "noindex": true,
+    "articleSchema": false,
+    "adminProtectedUI": true
+  },
+  {
+    "path": "/about/",
+    "status": 200,
+    "noindex": false,
+    "articleSchema": false,
+    "adminProtectedUI": true
+  },
+  {
+    "path": "/contact/",
+    "status": 200,
+    "noindex": false,
+    "articleSchema": false,
+    "adminProtectedUI": true
+  },
+  {
+    "path": "/privacy/",
+    "status": 200,
+    "noindex": false,
+    "articleSchema": false,
+    "adminProtectedUI": true
+  },
+  {
+    "path": "/cookies/",
+    "status": 200,
+    "noindex": false,
+    "articleSchema": false,
+    "adminProtectedUI": true
+  },
+  {
+    "path": "/terms/",
+    "status": 200,
+    "noindex": false,
+    "articleSchema": false,
+    "adminProtectedUI": true
+  }
+]

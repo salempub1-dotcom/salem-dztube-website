@@ -1,0 +1,218 @@
+[
+  {
+    "name": "salemdztube.com",
+    "type": "NS",
+    "status": 0,
+    "answer": [
+      {
+        "name": "salemdztube.com.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "ns1.dns-parking.com."
+      },
+      {
+        "name": "salemdztube.com.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "ns2.dns-parking.com."
+      }
+    ]
+  },
+  {
+    "name": "salemdztube.com",
+    "type": "A",
+    "status": 0,
+    "answer": [
+      {
+        "name": "salemdztube.com.",
+        "type": 1,
+        "TTL": 60,
+        "data": "89.116.109.220"
+      },
+      {
+        "name": "salemdztube.com.",
+        "type": 1,
+        "TTL": 60,
+        "data": "195.200.9.237"
+      }
+    ]
+  },
+  {
+    "name": "salemdztube.com",
+    "type": "AAAA",
+    "status": 0,
+    "answer": [
+      {
+        "name": "salemdztube.com.",
+        "type": 28,
+        "TTL": 60,
+        "data": "2a02:4780:26:b5e9:3ba6:238:1aa5:f962"
+      },
+      {
+        "name": "salemdztube.com.",
+        "type": 28,
+        "TTL": 60,
+        "data": "2a02:4780:25:5c65:7082:2858:deea:89d1"
+      }
+    ]
+  },
+  {
+    "name": "salemdztube.com",
+    "type": "CNAME",
+    "status": 0,
+    "answer": []
+  },
+  {
+    "name": "salemdztube.com",
+    "type": "MX",
+    "status": 0,
+    "answer": [
+      {
+        "name": "salemdztube.com.",
+        "type": 15,
+        "TTL": 14400,
+        "data": "5 mx1.hostinger.com."
+      },
+      {
+        "name": "salemdztube.com.",
+        "type": 15,
+        "TTL": 14400,
+        "data": "10 mx2.hostinger.com."
+      }
+    ]
+  },
+  {
+    "name": "salemdztube.com",
+    "type": "TXT",
+    "status": 0,
+    "answer": [
+      {
+        "name": "salemdztube.com.",
+        "type": 16,
+        "TTL": 3600,
+        "data": "v=spf1 include:_spf.mail.hostinger.com ~all"
+      }
+    ]
+  },
+  {
+    "name": "salemdztube.com",
+    "type": "CAA",
+    "status": 0,
+    "answer": []
+  },
+  {
+    "name": "www.salemdztube.com",
+    "type": "NS",
+    "status": 0,
+    "answer": [
+      {
+        "name": "www.salemdztube.com.",
+        "type": 5,
+        "TTL": 300,
+        "data": "www.salemdztube.com.cdn.hstgr.net."
+      }
+    ]
+  },
+  {
+    "name": "www.salemdztube.com",
+    "type": "A",
+    "status": 0,
+    "answer": [
+      {
+        "name": "www.salemdztube.com.",
+        "type": 5,
+        "TTL": 300,
+        "data": "www.salemdztube.com.cdn.hstgr.net."
+      },
+      {
+        "name": "www.salemdztube.com.cdn.hstgr.net.",
+        "type": 1,
+        "TTL": 60,
+        "data": "89.116.109.186"
+      },
+      {
+        "name": "www.salemdztube.com.cdn.hstgr.net.",
+        "type": 1,
+        "TTL": 60,
+        "data": "91.108.103.111"
+      }
+    ]
+  },
+  {
+    "name": "www.salemdztube.com",
+    "type": "AAAA",
+    "status": 0,
+    "answer": [
+      {
+        "name": "www.salemdztube.com.",
+        "type": 5,
+        "TTL": 300,
+        "data": "www.salemdztube.com.cdn.hstgr.net."
+      },
+      {
+        "name": "www.salemdztube.com.cdn.hstgr.net.",
+        "type": 28,
+        "TTL": 60,
+        "data": "2a02:4780:34:63b:9ceb:385d:1a78:789c"
+      },
+      {
+        "name": "www.salemdztube.com.cdn.hstgr.net.",
+        "type": 28,
+        "TTL": 60,
+        "data": "2a02:4780:26:14fc:15d3:dfd8:b195:5833"
+      }
+    ]
+  },
+  {
+    "name": "www.salemdztube.com",
+    "type": "CNAME",
+    "status": 0,
+    "answer": [
+      {
+        "name": "www.salemdztube.com.",
+        "type": 5,
+        "TTL": 300,
+        "data": "www.salemdztube.com.cdn.hstgr.net."
+      }
+    ]
+  },
+  {
+    "name": "www.salemdztube.com",
+    "type": "MX",
+    "status": 0,
+    "answer": [
+      {
+        "name": "www.salemdztube.com.",
+        "type": 5,
+        "TTL": 300,
+        "data": "www.salemdztube.com.cdn.hstgr.net."
+      }
+    ]
+  },
+  {
+    "name": "www.salemdztube.com",
+    "type": "TXT",
+    "status": 0,
+    "answer": [
+      {
+        "name": "www.salemdztube.com.",
+        "type": 5,
+        "TTL": 300,
+        "data": "www.salemdztube.com.cdn.hstgr.net."
+      }
+    ]
+  },
+  {
+    "name": "www.salemdztube.com",
+    "type": "CAA",
+    "status": 0,
+    "answer": [
+      {
+        "name": "www.salemdztube.com.",
+        "type": 5,
+        "TTL": 300,
+        "data": "www.salemdztube.com.cdn.hstgr.net."
+      }
+    ]
+  }
+]

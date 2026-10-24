@@ -1,0 +1,128 @@
+[
+  {
+    "url": "https://salemdztube.com/",
+    "status": 200,
+    "final": "https://salemdztube.com/",
+    "type": "text/html",
+    "bytes": 215329,
+    "file": "salemdztube.com_",
+    "headers": {
+      "server": "envoy"
+    }
+  },
+  {
+    "url": "https://salemdztube.com/robots.txt",
+    "status": 200,
+    "final": "https://salemdztube.com/robots.txt",
+    "type": "text/plain",
+    "bytes": 69,
+    "file": "salemdztube.com_robots.txt",
+    "headers": {
+      "server": "envoy"
+    }
+  },
+  {
+    "url": "https://salemdztube.com/sitemap.xml",
+    "status": 200,
+    "final": "https://salemdztube.com/sitemap.xml",
+    "type": "application/xml",
+    "bytes": 933,
+    "file": "salemdztube.com_sitemap.xml",
+    "headers": {
+      "server": "envoy"
+    }
+  },
+  {
+    "url": "https://salemdztube.com/ads.txt",
+    "status": 404
+  },
+  {
+    "url": "https://www.salemdztube.com/",
+    "status": 200,
+    "final": "https://salemdztube.com/",
+    "type": "text/html",
+    "bytes": 215329,
+    "file": "www.salemdztube.com_",
+    "headers": {
+      "server": "envoy"
+    }
+  },
+  {
+    "url": "https://www.salemdztube.com/robots.txt",
+    "status": 200,
+    "final": "https://salemdztube.com/robots.txt",
+    "type": "text/plain",
+    "bytes": 69,
+    "file": "www.salemdztube.com_robots.txt",
+    "headers": {
+      "server": "envoy"
+    }
+  },
+  {
+    "url": "https://www.salemdztube.com/sitemap.xml",
+    "status": 200,
+    "final": "https://salemdztube.com/sitemap.xml",
+    "type": "application/xml",
+    "bytes": 933,
+    "file": "www.salemdztube.com_sitemap.xml",
+    "headers": {
+      "server": "envoy"
+    }
+  },
+  {
+    "url": "https://www.salemdztube.com/ads.txt",
+    "status": 404
+  },
+  {
+    "url": "https://salem-dztube-website.vercel.app/",
+    "status": 200,
+    "final": "https://salem-dztube-website.vercel.app/",
+    "type": "text/html",
+    "bytes": 8368,
+    "file": "salem-dztube-website.vercel.app_",
+    "headers": {
+      "server": "envoy",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::6wfxr-1792846570301-78c8518dbf4c"
+    }
+  },
+  {
+    "url": "https://salem-dztube-website.vercel.app/robots.txt",
+    "status": 200,
+    "final": "https://salem-dztube-website.vercel.app/robots.txt",
+    "type": "text/plain",
+    "bytes": 144,
+    "file": "salem-dztube-website.vercel.app_robots.txt",
+    "headers": {
+      "server": "envoy",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::8zqwk-1792846570272-f8e8fb1b17e5"
+    }
+  },
+  {
+    "url": "https://salem-dztube-website.vercel.app/sitemap.xml",
+    "status": 200,
+    "final": "https://salem-dztube-website.vercel.app/sitemap.xml",
+    "type": "application/xml",
+    "bytes": 1510,
+    "file": "salem-dztube-website.vercel.app_sitemap.xml",
+    "headers": {
+      "server": "envoy",
+      "x-vercel-cache": "MISS",
+      "x-vercel-id": "cle1::iad1::s229f-1792846570301-d8def840736d"
+    }
+  },
+  {
+    "url": "https://salem-dztube-website.vercel.app/ads.txt",
+    "status": 200,
+    "final": "https://salem-dztube-website.vercel.app/ads.txt",
+    "type": "text/plain",
+    "bytes": 59,
+    "file": "salem-dztube-website.vercel.app_ads.txt",
+    "headers": {
+      "server": "envoy",
+      "x-vercel-cache": "HIT",
+      "x-vercel-id": "cle1::blms4-1792846570271-ee53868ac69e"
+    }
+  }
+]

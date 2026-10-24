@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /articles/read/
-Sitemap: https://salem-dztube-website.vercel.app/sitemap.xml
+Sitemap: https://salemdztube.com/sitemap.xml

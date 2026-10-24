@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-24",
+  "base": "13f07c594c5a3dc2aff940914bc63266eb6206ea",
+  "tests": {
+    "passed": 25,
+    "failed": 0
+  },
+  "candidateBrowser": [
+    {
+      "width": 390,
+      "path": "/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/articles/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/articles/supplier-sample-checklist-algeria/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/about/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/privacy/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/cookies/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/terms/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/admin/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/videos/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/------/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/no-such-qa-page/",
+      "status": 404,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/articles/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/articles/supplier-sample-checklist-algeria/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/about/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/privacy/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/cookies/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/terms/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/admin/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/videos/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/------/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/no-such-qa-page/",
+      "status": 404,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    }
+  ],
+  "liveCutover": false,
+  "dnsWrites": false,
+  "vercelProjectAssignmentWrites": false,
+  "productionMerge": false,
+  "previewVerification": "Pending Vercel project authorization",
+  "adminPasswordLogin": "Not performed; no authorized session available",
+  "supabaseAuthConfig": "Not changed; no config read tool available",
+  "oldSitemap": "6 distinct paths, including home",
+  "publicOldDomainHostingEvidence": [
+    "Hostinger AI Builder generator",
+    "www CNAME ends cdn.hstgr.net",
+    "NS dns-parking.com"
+  ],
+  "adsenseAccountStatus": "Not connected; unverified",
+  "searchConsole": "Not connected"
+}

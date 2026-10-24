@@ -1,0 +1,22 @@
+[
+  {
+    "url": "http://salemdztube.com/",
+    "status": 301,
+    "location": "https://salemdztube.com/"
+  },
+  {
+    "url": "http://www.salemdztube.com/",
+    "status": 301,
+    "location": "https://salemdztube.com/"
+  },
+  {
+    "url": "https://www.salemdztube.com/",
+    "status": 301,
+    "location": "https://salemdztube.com/"
+  },
+  {
+    "url": "https://salemdztube.com/",
+    "status": 200,
+    "location": null
+  }
+]

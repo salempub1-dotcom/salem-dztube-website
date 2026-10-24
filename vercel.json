@@ -6,7 +6,41 @@
   "installCommand": "npm ci --ignore-scripts",
   "trailingSlash": true,
   "functions": { "api/render.js": { "maxDuration": 60 } },
+  "redirects": [
+    {
+      "source": "/almdwnh",
+      "destination": "/videos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/almdwnh/",
+      "destination": "/videos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/page-7_fWx",
+      "destination": "/videos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/page-7_fWx/",
+      "destination": "/videos/",
+      "statusCode": 301
+    },
+    {
+      "source": "/page-4jdwt",
+      "destination": "/contact/",
+      "statusCode": 301
+    },
+    {
+      "source": "/page-4jdwt/",
+      "destination": "/contact/",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
+    { "source": "/page", "destination": "/api/render?route=page" },
+    { "source": "/page/", "destination": "/api/render?route=page" },
     { "source": "/articles", "destination": "/api/render?route=articles" },
     { "source": "/articles/", "destination": "/api/render?route=articles" },
     { "source": "/articles/read", "destination": "/api/render?route=articles/read" },
