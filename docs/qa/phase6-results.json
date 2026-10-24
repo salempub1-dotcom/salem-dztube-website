@@ -1,0 +1,224 @@
+{
+  "date": "2026-10-24",
+  "base": "13f07c594c5a3dc2aff940914bc63266eb6206ea",
+  "unitTests": {
+    "passed": 26,
+    "failed": 0
+  },
+  "browser": [
+    {
+      "width": 390,
+      "path": "/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/articles/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/articles/supplier-sample-checklist-algeria/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/about/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/privacy/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/cookies/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/terms/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/admin/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 390,
+      "path": "/no-such-qa-page/",
+      "status": 404,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/articles/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/articles/supplier-sample-checklist-algeria/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/about/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/contact/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/privacy/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/cookies/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/terms/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/admin/",
+      "status": 200,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    },
+    {
+      "width": 1440,
+      "path": "/no-such-qa-page/",
+      "status": 404,
+      "overflow": false,
+      "brokenImages": [],
+      "axeViolations": 0
+    }
+  ],
+  "lighthouse": [
+    {
+      "phase": "before",
+      "environment": "local mobile simulated Lighthouse single run",
+      "performance": 0.94,
+      "accessibility": 1,
+      "seo": 1,
+      "bestPractices": 1,
+      "LCP": 2931.52125,
+      "CLS": 0.00320326652781291,
+      "TBT": 0,
+      "FCP": 1807.8255000000001,
+      "diagnostics": []
+    },
+    {
+      "phase": "after",
+      "environment": "local mobile simulated Lighthouse single run",
+      "performance": 0.94,
+      "accessibility": 1,
+      "seo": 1,
+      "bestPractices": 1,
+      "LCP": 2932.99625,
+      "CLS": 0.00320326652781291,
+      "TBT": 0,
+      "FCP": 1811.1947499999999,
+      "diagnostics": []
+    }
+  ],
+  "adminContract": {
+    "mode": "isolated mocked Supabase",
+    "draftSave": true,
+    "privateCoverValidation": true,
+    "dates": true,
+    "tablePreview": true,
+    "links": true,
+    "realAdminLogin": false
+  },
+  "liveRLS": {
+    "draftHiddenFromAnonymous": true,
+    "publicDraftRoute": 404,
+    "anonymousInsertDenied": true,
+    "temporaryDraftRemoved": true,
+    "remainingPublishedArticles": 6
+  },
+  "vercel": {
+    "gitChecks": "success for both projects",
+    "browserVerification": "blocked by Vercel Authentication",
+    "connectorFailure": "403 read_protection_bypass; project/deployment details 404"
+  },
+  "adsense": {
+    "accountOwnershipVerified": false,
+    "SDKLoaded": false,
+    "reviewRequested": false
+  }
+}
