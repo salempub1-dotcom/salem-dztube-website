@@ -76,3 +76,15 @@ Search Console غير متصلة؛ لم تُعرف الصفحات المفهرس
 - https://vercel.com/docs/domains/working-with-domains/transfer-your-domain
 - https://vercel.com/docs/domains/managing-dns-records
 - https://developers.google.com/search/docs/crawling-indexing/site-move-no-url-changes
+
+## تحديث بعد الدخول إلى Hostinger
+
+أصبح الوصول عبر جلسة hPanel المصرح بها متاحاً، وتمت قراءة منطقة DNS الفعلية كاملة: 11 سجلاً ظاهراً. [النسخة الموثقة](hostinger-zone-before.json) تحفظ النوع والاسم والقيمة والأولوية وTTL.
+
+الربط الفعلي للاستضافة هو `ALIAS @ → salemdztube.com.cdn.hstgr.net`، و`CNAME www → www.salemdztube.com.cdn.hstgr.net`، وكلاهما TTL=300. لا تظهر سجلات A أو AAAA مستقلة في المنطقة؛ العناوين العامة التي رصدناها سابقاً ناتجة عن الوجهة المستهدفة. لهذا تكون نقطة الرجوع الصحيحة إعادة ALIAS وCNAME الأصليين، وليست تثبيت عناوين IP المتغيرة التي تعيدها شبكة Hostinger.
+
+تبقى سجلات البريد التسعة الأخرى كما هي: MX اثنان، وSPF، وDMARC، وثلاثة DKIM، وautodiscover، وautoconfig. خوادم الأسماء لم تتغير. صفحة SSL تعرض «Active and secure» و«Protected by Lifetime SSL».
+
+لم تُضغط أزرار Edit أو Delete أو Add Record أو Reset أو Change Nameservers، ولم تُعدّل المنطقة. أكدت صفحة Home أن salemdztube.com موقع AI Builder في Hostinger. الاحتفاظ بالموقع القديم يتطلب إبقاء مشروع Builder وعدم حذفه؛ وجود الدومين في حساب Vercel لا يغير هذا المصدر الفعلي.
+
+جلسة Vercel في المتصفح ما زالت تعرض تسجيل الدخول، لذلك لا يزال تحديد المشروع المستهدف وقيمه المطلوبة واختبار Preview المصادق غير مكتمل. لا طلب موافقة على تحويل نهائي قبل حل ذلك. هذا التحديث يستبدل قيد «عدم توفر الوصول إلى DNS الفعلية» في التقرير السابق؛ قيد Vercel ما زال قائماً.

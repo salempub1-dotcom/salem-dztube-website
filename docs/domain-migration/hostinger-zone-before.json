@@ -1,0 +1,23 @@
+{
+  "domain": "salemdztube.com",
+  "observedDate": "2026-10-24",
+  "source": "Authenticated Hostinger hPanel DNS records table, read-only",
+  "nameservers": ["ns1.dns-parking.com", "ns2.dns-parking.com"],
+  "ssl": "Active and secure — Protected by Lifetime SSL",
+  "records": [
+    {"type":"CNAME","name":"hostingermail-c._domainkey","priority":0,"value":"hostingermail-c.dkim.mail.hostinger.com","ttl":300},
+    {"type":"CNAME","name":"hostingermail-b._domainkey","priority":0,"value":"hostingermail-b.dkim.mail.hostinger.com","ttl":300},
+    {"type":"CNAME","name":"hostingermail-a._domainkey","priority":0,"value":"hostingermail-a.dkim.mail.hostinger.com","ttl":300},
+    {"type":"CNAME","name":"www","priority":0,"value":"www.salemdztube.com.cdn.hstgr.net","ttl":300},
+    {"type":"CNAME","name":"autodiscover","priority":0,"value":"autodiscover.mail.hostinger.com","ttl":300},
+    {"type":"CNAME","name":"autoconfig","priority":0,"value":"autoconfig.mail.hostinger.com","ttl":300},
+    {"type":"TXT","name":"_dmarc","priority":0,"value":"v=DMARC1; p=none","ttl":3600},
+    {"type":"ALIAS","name":"@","priority":0,"value":"salemdztube.com.cdn.hstgr.net","ttl":300},
+    {"type":"TXT","name":"@","priority":0,"value":"v=spf1 include:_spf.mail.hostinger.com ~all","ttl":3600},
+    {"type":"MX","name":"@","priority":10,"value":"mx2.hostinger.com","ttl":14400},
+    {"type":"MX","name":"@","priority":5,"value":"mx1.hostinger.com","ttl":14400}
+  ],
+  "standaloneAorAAAARecordsVisible": false,
+  "writesPerformed": false,
+  "preserveAllExceptApprovedWebTargets": true
+}
