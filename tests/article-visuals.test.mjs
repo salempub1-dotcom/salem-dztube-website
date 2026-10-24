@@ -4,7 +4,7 @@ import {readFile,stat} from 'node:fs/promises';
 import {ARTICLE_VISUALS,articleVisual} from '../lib/article-visuals.js';
 import {articleCover,articleCoverAlt,articleCard,renderArticleIllustration} from '../lib/content.js';
 import {renderRequest} from '../api/render.js';
-const site='https://salem-dztube-website.vercel.app';
+const site='https://salemdztube.com';
 test('trusted editorial assets exist in build and arbitrary slugs cannot resolve files',async()=>{
  for(const [slug,v] of Object.entries(ARTICLE_VISUALS)){
   assert.match(slug,/^[a-z0-9-]+$/);
@@ -29,5 +29,5 @@ test('article serves local cover and explanatory diagram with absolute SEO image
  const r=await renderRequest(new URL(site+'/articles/'+article.slug+'/'),async(table,p)=>({data:p.slug?[article]:[],count:1}));
  assert.equal(r.status,200);assert.match(r.html,/src="\/assets\/articles\/cod-tracking-cover.webp"/);assert.match(r.html,/cod-order-flow.svg/);
  const json=JSON.parse(r.html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);assert.equal(json.image[0],site+ARTICLE_VISUALS[article.slug].cover);
- assert.match(r.html,/property="og:image" content="https:\/\/salem-dztube-website.vercel.app\/assets\/articles\/cod-tracking-cover.webp"/);
+ assert.match(r.html,/property="og:image" content="https:\/\/salemdztube.com\/assets\/articles\/cod-tracking-cover.webp"/);
 });

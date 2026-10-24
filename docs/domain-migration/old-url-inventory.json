@@ -1,0 +1,138 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "headings": [
+      [
+        "title",
+        "Salem DZTube | التسويق الرقمي والتجارة الإلكترونية في الجزائر | Salem DZTube"
+      ],
+      [
+        "h1",
+        "تعلّم التسويق الرقمي والتجارة الإلكترونية في الجزائر"
+      ],
+      [
+        "h3",
+        "أحدث الفيديوهات"
+      ],
+      [
+        "h3",
+        "انضم إلى المجتمع"
+      ],
+      [
+        "h3",
+        "147K"
+      ],
+      [
+        "h3",
+        "+8M"
+      ]
+    ],
+    "links": [
+      "/",
+      "/almdwnh",
+      "/page-4jdwt",
+      "/page-7_fWx"
+    ]
+  },
+  {
+    "path": "/------",
+    "status": 200,
+    "headings": [
+      [
+        "title",
+        "مرحبًا بكم في مدونتي الخاصة بصانع المحتوى | Salem DZTube"
+      ],
+      [
+        "h1",
+        "مرحبًا بكم في مدونتي الخاصة بصانع المحتوى"
+      ]
+    ],
+    "links": [
+      "/",
+      "/almdwnh",
+      "/page-4jdwt",
+      "/page-7_fWx"
+    ]
+  },
+  {
+    "path": "/page",
+    "status": 200,
+    "headings": [
+      [
+        "title",
+        "Store | Salem DZTube"
+      ]
+    ],
+    "links": [
+      "/",
+      "/almdwnh",
+      "/page-4jdwt",
+      "/page-7_fWx"
+    ]
+  },
+  {
+    "path": "/almdwnh",
+    "status": 200,
+    "headings": [
+      [
+        "title",
+        "مقاطع الفيديو الإبداعية من salemdztube | Salem DZTube"
+      ],
+      [
+        "h1",
+        "معرض"
+      ],
+      [
+        "h3",
+        "أعمالي"
+      ]
+    ],
+    "links": [
+      "/",
+      "/almdwnh",
+      "/page-4jdwt",
+      "/page-7_fWx"
+    ]
+  },
+  {
+    "path": "/page-7_fWx",
+    "status": 200,
+    "headings": [
+      [
+        "title",
+        "فيديوهات salemdzt المميزة | Salem DZTube"
+      ]
+    ],
+    "links": [
+      "/",
+      "/almdwnh",
+      "/page-4jdwt",
+      "/page-7_fWx"
+    ]
+  },
+  {
+    "path": "/page-4jdwt",
+    "status": 200,
+    "headings": [
+      [
+        "title",
+        "salemdzt صانع محتوى يوتيوب مبدع | Salem DZTube"
+      ],
+      [
+        "h1",
+        "تواصل معنا"
+      ],
+      [
+        "h3",
+        "موقعي"
+      ]
+    ],
+    "links": [
+      "/",
+      "/almdwnh",
+      "/page-4jdwt",
+      "/page-7_fWx"
+    ]
+  }
+]
