@@ -4,7 +4,7 @@ import {escapeHTML as h,articleCard,articleCover,articleCoverAlt,renderArticleIl
 import {publicQuery,publishedParams,searchFilter} from '../lib/data.js';
 const fields='*,categories(name,slug)';
 const isSlug=s=>/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(s);
-const permanentPages=['/','/articles/','/about/','/contact/','/privacy/','/cookies/','/terms/','/videos/','/------/'];
+const permanentPages=['/','/articles/','/about/','/contact/','/privacy/','/cookies/','/terms/','/videos/','/------/','/collaboration/'];
 export async function renderRequest(url,query=publicQuery) {
  const path=url.pathname.replace(/\/$/,'')||'/';
  if(path==='/page'){return {status:410,html:page({title:'الصفحة القديمة لم تعد متاحة',description:'صفحة المتجر القديمة لا تحتوي على خدمة نشطة في هذا الموقع.',path:'/page/',noindex:true,content:'<section class="wrap reading-layout"><h1>410 — الصفحة القديمة لم تعد متاحة</h1><p>صفحة المتجر في النسخة السابقة لم تكن تعرض منتجات. لا يوجد متجر بديل في SalemDZTube.</p><a class="text-link" href="/contact/">التواصل مع SalemDZTube</a></section>'})};}
