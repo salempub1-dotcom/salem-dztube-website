@@ -1,0 +1,52 @@
+{
+  "submit": {
+    "status": 200,
+    "data": {
+      "id": "7a9bceaf-2e59-4f1f-93ee-4b13f4df3ae5"
+    },
+    "cors": "https://www.salemdztube.com"
+  },
+  "retry": {
+    "status": 200,
+    "data": {
+      "id": "7a9bceaf-2e59-4f1f-93ee-4b13f4df3ae5"
+    },
+    "cors": "https://www.salemdztube.com"
+  },
+  "rate_limit": {
+    "status": 400,
+    "data": {
+      "code": "P0001",
+      "details": null,
+      "hint": null,
+      "message": "request_rate_limited"
+    }
+  },
+  "visitor_read": {
+    "status": 401,
+    "data": {
+      "code": "42501",
+      "details": null,
+      "hint": "Grant the required privileges to the current role with: GRANT SELECT ON public.collaboration_requests TO anon;",
+      "message": "permission denied for table collaboration_requests"
+    }
+  },
+  "direct_insert": {
+    "status": 401,
+    "data": {
+      "code": "42501",
+      "details": null,
+      "hint": "Grant the required privileges to the current role with: GRANT INSERT ON public.collaboration_requests TO anon;",
+      "message": "permission denied for table collaboration_requests"
+    }
+  },
+  "html_rejected": {
+    "status": 400,
+    "data": {
+      "code": "22023",
+      "details": null,
+      "hint": null,
+      "message": "invalid_request"
+    }
+  }
+}
