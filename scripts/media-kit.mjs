@@ -4,7 +4,7 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 const videos=JSON.parse(await readFile('content/videos.json','utf8'));
-const root=pathToFileURL(resolve('.')+'/').href;
+const root='../../';
 const brand='<bdi class="brand">Salem<span>DZ</span>Tube</bdi>';
 const page=(n,body)=>`<section class="sheet"><header>${brand}<span>التعاون والإعلان · Media Kit</span></header>${body}<footer><a href="https://www.salemdztube.com/collaboration/">www.salemdztube.com/collaboration</a><span>${n} / 3</span></footer></section>`;
 const html=`<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><base href="${root}"><style>

@@ -1,0 +1,60 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "width": 1024,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "width": 768,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "broken": []
+  },
+  {
+    "axe": []
+  },
+  {
+    "failedResponseMessage": "تعذر تأكيد حفظ الطلب. حاول لاحقاً أو راسل salempub1@gmail.com."
+  },
+  {
+    "path": "/",
+    "status": 200
+  },
+  {
+    "path": "/articles/",
+    "status": 200
+  },
+  {
+    "path": "/admin/",
+    "status": 200
+  },
+  {
+    "path": "/contact/",
+    "status": 200
+  },
+  {
+    "path": "/privacy/",
+    "status": 200
+  },
+  {
+    "path": "/media/salemdztube-media-kit-ar.pdf",
+    "status": 200
+  },
+  {
+    "pageErrors": []
+  }
+]

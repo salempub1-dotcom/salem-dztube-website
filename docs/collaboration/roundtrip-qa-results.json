@@ -1,0 +1,5 @@
+{
+  "state": "success",
+  "message": "تم حفظ طلب التعاون بنجاح. مرجع طلبك: 3f74529c-2f46-4777-a774-78b44faf29a5. سنتابع التفاصيل عبر البريد الذي أدخلته.",
+  "transport": "HTTPS bridge to actual Supabase REST; no mock success"
+}
